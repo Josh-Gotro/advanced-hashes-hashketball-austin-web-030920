@@ -1,7 +1,7 @@
 require 'pry'
 require 'pp'
 
-##=+= =+=##  ##=+= =+=## ##=+= =+=##  ##=+= =+=##  HASHKETBALL ##=+= =+=##  ##=+= =+=##  ##=+= =+=## ##=+= =+=##
+ ##=+= =+=## ##=+= =+=##  ##=+= =+=##  HASHKETBALL ##=+= =+=##  ##=+= =+=##  ##=+= =+=## 
 
 def game_hash 
   hashketball = {
@@ -28,7 +28,7 @@ def game_hash
   }}
 end
 
-##=+= =+=##  ##=+= =+=## ##=+= =+=##  ##=+= =+=##  METHODS  ##=+= =+=##  ##=+= =+=##  ##=+= =+=## ##=+= =+=##
+  ##=+= =+=## ##=+= =+=##  ##=+= =+=##  METHODS  ##=+= =+=##  ##=+= =+=##  ##=+= =+=## 
 
 def num_points_scored (name)
   # name #=> => "Jeff Adrien"
@@ -171,6 +171,10 @@ guy = ""
   end
   return guy
 end
+
+
+
+
 
 
 # rspec spec/hashketball_spec.rb -e game_hash
